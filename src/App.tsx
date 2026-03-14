@@ -5,6 +5,7 @@ import About from './components/About';
 import Expertise from './components/Expertise';
 import Suite from './components/Suite';
 import Player from './components/Player';
+import { BackgroundMusic } from './components/BackgroundMusic';
 
 document.addEventListener('wheel', (e) => {
   if (e.ctrlKey) e.preventDefault();
@@ -27,6 +28,8 @@ function App() {
       <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
         <SplineBackground />
       </div>
+
+      <BackgroundMusic />
 
       {/* COUCHE 1 : LE CONTENU */}
       <div style={{ position: 'relative', zIndex: 1 }}>
