@@ -183,6 +183,36 @@ const Player: React.FC<PlayerProps> = ({ onBack }) => {
         </section>
       )}
 
+      <section style={{
+        width: '85%', maxWidth: '1100px', margin: '40px auto 0 auto',
+        display: 'flex', flexDirection: 'column', alignItems: 'center'
+      }}>
+        <div style={{
+          fontSize: '0.7rem', color: '#00d8ff', marginBottom: '10px', 
+          width: '100%', textAlign: 'left', letterSpacing: '2px'
+        }}>
+          [ Les diams vont finir comme ça ]
+        </div>
+        <div style={{
+          width: '100%',
+          aspectRatio: '16/9',
+          border: '1px solid #333',
+          backgroundColor: '#000',
+          position: 'relative',
+          boxShadow: '0 0 20px rgba(0,0,0,0.5)'
+        }}>
+          <iframe
+            src="https://clips.twitch.tv/embed?clip=BusySnappyGarageHotPokket&parent=localhost&parent=127.0.0.1&autoplay=false" 
+            height="100%"
+            width="100%"
+            frameBorder="0"
+            allowFullScreen={true}
+            scrolling="no"
+            style={{ position: 'absolute', top: 0, left: 0 }}
+          ></iframe>
+        </div>
+      </section>
+
       <footer style={{ textAlign: 'center', marginTop: '60px', display: 'flex', justifyContent: 'center', gap: '20px' }}>
         <button onClick={onBack} style={{
           background: 'transparent', color: '#00d8ff', border: '1px solid #00d8ff',
