@@ -202,7 +202,7 @@ const Player: React.FC<PlayerProps> = ({ onBack }) => {
           boxShadow: '0 0 20px rgba(0,0,0,0.5)'
         }}>
           <iframe
-            src="https://clips.twitch.tv/embed?clip=BusySnappyGarageHotPokket&parent=localhost&parent=127.0.0.1&autoplay=false" 
+            src="https://clips.twitch.tv/embed?clip=BusySnappyGarageHotPokket&parent=localhost&parent=127.0.0.1&parent=enutro-league.vercel.app&autoplay=false"
             height="100%"
             width="100%"
             frameBorder="0"
