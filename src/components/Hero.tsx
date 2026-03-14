@@ -83,7 +83,7 @@ const Hero = () => {
         maxWidth: '900px',       
         padding: '20px',
       }}>
-        <h1 style={{ 
+       <h1 style={{ 
           fontSize: 'clamp(2.5rem, 8vw, 4.5rem)', 
           fontWeight: '500',
           lineHeight: '1.1',
@@ -93,7 +93,14 @@ const Hero = () => {
           WebkitTextFillColor: 'transparent',
           textShadow: '0 10px 30px rgba(0,0,0,0.3)',
         }}>
-          Dépasser l'horizon du Platine : je structure des games où le skill prend du relief, tentant désespérément d'apporter de la cohérence à un environnement peuplé d'erreurs système.
+          Je structure des strats de génie pour des mates qui ne savent même pas que la mini-map existe. Bienvenue dans 
+          <span style={{
+            background: 'linear-gradient(to bottom, #57ebde 0%, #29a0b1 50%, #164a5c 100%)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            fontWeight: '800', 
+            filter: 'drop-shadow(0px 0px 10px rgba(87, 235, 222, 0.3))' 
+          }}> l'enfer du Platine</span>.
         </h1>
 
         <p style={{ 
@@ -104,8 +111,8 @@ const Hero = () => {
           marginBottom: '2rem'
         }}>
           Salut, je suis <span style={{ color: '#fff', fontWeight: 'bold' }}>Enutro</span>. 
-          <br />Un ancient jgl reconvertie en adc.
-          <br />Btw je vaut large le diam
+          <br />Un ancient jgl reconvertie en adc, oui je suis devenu fou.
+          <br />Btw je vaux large le diam
         </p>
 
         <div style={{
